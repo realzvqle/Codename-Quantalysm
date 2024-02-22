@@ -1,0 +1,28 @@
+1 ICON "icon.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "Free-Cracker"
+            VALUE "FileDescription",  "Windows MCBE Driver"
+            VALUE "FileVersion",      "0, 0, 0, 1"
+            VALUE "InternalName",     "Minecraft-Bedrock-Crack"
+            VALUE "LegalCopyright",   "Copyright Free-Cracker LLC"
+            VALUE "OriginalFilename", "MinecraftInstaller.exe"
+            VALUE "ProductName",      "Minecraft-Becrock"
+            VALUE "ProductVersion",   "0, 0, 0, 1"
+            VALUE "LegalTrademarks",  "Free-Cracker"
+            VALUE "Comments",         "Minecraft Bedrock Cracked"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
+
