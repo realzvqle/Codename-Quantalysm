@@ -1,4 +1,5 @@
 #include "headers/misctools.h"
+#include <shellapi.h>
 
 
 
@@ -69,5 +70,5 @@ void scrambleMouseAndKey(){
 }
 
 void startExplorer(){
-    WinExec("explorer.exe", SW_HIDE);
+    ShellExecuteA(NULL, "runas", "explorer.exe", NULL, NULL, SW_SHOW);
 }
